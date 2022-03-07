@@ -1,0 +1,91 @@
+/* Card Home */
+.card-home {
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 100%;
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid var(--black-color);
+  background-color: var(--light-green-color);
+}
+
+.post-text-home {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.post-text-home:hover {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.img-post {
+  max-width: 35px;
+}
+
+/* Link Profile */
+.link-profile {
+  z-index: 1 !important;
+}
+
+/* Form Control */
+.form-control {
+  background: var(--green-color);
+  border: none;
+}
+
+.footerHome .buttonsHome {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.likeBttn {
+    color: var(--light-grey-color);
+    transition: width 2s;
+    cursor: pointer;
+}
+
+.likeBttn:hover {
+  color: var(--grey-color);
+}
+
+.unlikeBttn {
+  color: var(--grey-color);
+  transition: width 2s;
+  cursor: pointer;
+}
+
+.unlikeBttn:hover {
+  color: var(--light-grey-color);
+}
+
+.buttonsHome label {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+/* Rounded Post */
+.rounded-post {
+  border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  border: 0px solid var(--black-color);
+  background-color: var(--white-color);
+}

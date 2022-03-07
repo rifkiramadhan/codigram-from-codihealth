@@ -1,0 +1,63 @@
+/* CSS Root */
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --grey-color: #74959A;
+  --light-grey-color: #acacaa;
+  --light-grey-color-basic: #e0e1ed;
+  --light-blue-color: #00B4D8;
+  --light-blue-color-medium: #CAF0F8;
+  --dark-blue-color: #3E497A;
+  --violet-color: #0b63dc;
+  --light-green-color: #C1F8CF;
+  --green-color: #DADBBD;
+  --green-color-medium: #65C18C;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  max-width: 100%;
+  max-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Acme', sans-serif;
+}
+
+.navbar {
+  border: .01rem solid var(--light-grey-color-basic);
+}
+
+.navbar-brand {
+  font-family: 'Skranji', cursive;
+  font-size: 30px;
+}
+
+/* Desktop Display */
+@media (min-width: 992px) {
+  .navbar-brand, .nav-link {
+      color: var(--light-blue-color-medium) !important;
+  }
+
+  .nav-link {
+      text-transform: uppercase;
+      margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 3px solid var(--green-color-medium);
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+  }
+}

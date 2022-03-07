@@ -1,0 +1,80 @@
+.card-comment {
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid var(--black-color);
+  max-width: 100%;
+  background-color: var(--light-green-color);
+}
+
+/* Block Title */
+.block-title {
+  font-size: 18px;
+  margin: 20px auto;
+  font-weight: bold;
+  padding: 1.2em 30px 1.2em;
+  border-left: 3px solid var(--light-grey-color);
+  line-height: 1.6;
+  position: relative;
+  border-radius: 0px 18px 18px 0px;
+  -moz-border-radius: 0px 18px 18px 0px;
+  -webkit-border-radius: 0px 18px 18px 0px;
+  background: var(--white-color);
+}
+
+/* Block Case */
+.classy-bq {
+  border-left: 3px solid var(--grey-color);
+  margin: 1.5em 5px;
+  padding: .7em 3px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color:var(--black-color);
+}
+.classy-bq:before {
+  color: var(--black-color);
+  content: open-quote;
+  font-size: 8em;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.4em;
+  opacity:0.60;
+}
+blockquote p {
+  display: inline;
+  font-size: 1rem;
+  line-height:1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+.blockquote-section {
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  opacity:0.95;
+  padding:20px;
+}
+
+/* Rounded Comment */
+.rounded-comment {
+  border-radius: 0px 18px 18px 0px;
+  -moz-border-radius: 0px 18px 18px 0px;
+  -webkit-border-radius: 0px 18px 18px 0px;
+  border: 0px solid var(--black-color);
+}
+
+/* Rounded Body */
+.rounded-body {
+  border-radius: 0px 18px 18px 0px;
+  -moz-border-radius: 0px 18px 18px 0px;
+  -webkit-border-radius: 0px 18px 18px 0px;
+  border: 0px solid var(--black-color);
+  background-color: var(--white-color);
+}
+
+/* Rounded Textarea */
+.rounded-textarea {
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid var(--black-color);
+  max-width: 100%;
+}
