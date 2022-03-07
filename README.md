@@ -4,7 +4,7 @@
 
 ## Deskripsi
 
-- [Codi Health Repository](https://github.com/rifkiramadhan/codigram-from-codihealth)
+- [Codi Health Repository](https://github.com/rifkiramadhan/project-team-03)
 
 ```CodiHealth adalah sebuah Toko Online berbasis website untuk menjual produk obat-obatan kesehatan berdasarkan resep dokter dan juga menyediakan fasilitas untuk konsultasi masalah kesehatan secara daring dengan para dokter specialist.```
 
