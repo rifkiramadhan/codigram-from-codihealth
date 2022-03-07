@@ -10,7 +10,8 @@
 
 ## Aplikasi Dukungan
 
-- [Codigram](https://codigram.netlify.app)
+- [Codigram Client](https://codigram.netlify.app)
+- [Codigram Server](https://codigram-api.herokuapp.com/)
 
 ```Codigram adalah aplikasi sistem informasi berbasis website yang bertujuan untuk mendukung platform Codi Health sebagai fasilitas komunikasi dan konsultasi antara pasien dan dokter specialist yang kemudian akan diberikan solusi dan rekomendasi obat-obatan sesuai resep dokter yang dapat di beli melalui aplikasi Codi Health.```
 
