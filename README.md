@@ -1,6 +1,9 @@
 # Codigram from Codi Health
 
-## [Codigram ERD](https://drive.google.com/file/d/1xtUpR-D0lAiq2loQG54Eq2ZOTGmH2aUG/view?usp=sharing)
+## Rancangan Data
+
+1. [Codigram ERD](https://drive.google.com/file/d/1xtUpR-D0lAiq2loQG54Eq2ZOTGmH2aUG/view?usp=sharing)
+2. [Codigram API Doc](https://documenter.getpostman.com/view/19897989/UVkvLDSw)
 
 ## Deskripsi
 
@@ -11,7 +14,7 @@
 ## Aplikasi Dukungan
 
 - [Codigram Client](https://codigram.netlify.app)
-- [Codigram Server](https://codigram-api.herokuapp.com/)
+- [Codigram Server](https://codigram-api.herokuapp.com)
 
 ```Codigram adalah aplikasi sistem informasi berbasis website yang bertujuan untuk mendukung platform Codi Health sebagai fasilitas komunikasi dan konsultasi antara pasien dan dokter specialist yang kemudian akan diberikan solusi dan rekomendasi obat-obatan sesuai resep dokter yang dapat di beli melalui aplikasi Codi Health.```
 
